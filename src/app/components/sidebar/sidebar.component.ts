@@ -7,8 +7,12 @@ import { Component } from "@angular/core";
 })
 export class SidebarComponent {
     classe: any;
+    open: boolean = true;
 
-    handleChange() {
-        this.classe = 'hide-sidebar'
+    handleChange(action: boolean) {
+        console.log(action);
+        action ? this.classe = 'hide-sidebar' : this.classe = 'show-sidebar'
+
+
     }
 }

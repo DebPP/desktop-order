@@ -1,6 +1,5 @@
 <div class="sidebar" [ngClass]="classe">
-    <input type="radio" id="menu" name="item" value="menu" (change)="handleChange()">
-    <label for="menu">
+    <div class="action-menu" (click)="handleChange(open = !open)">
         <svg height="20px" width="20px" viewBox="0 -53 384 384" xmlns="http://www.w3.org/2000/svg">
             <path
                 d="m368 154.667969h-352c-8.832031 0-16-7.167969-16-16s7.167969-16 16-16h352c8.832031 0 16 7.167969 16 16s-7.167969 16-16 16zm0 0" />
@@ -9,7 +8,7 @@
             <path
                 d="m368 277.332031h-352c-8.832031 0-16-7.167969-16-16s7.167969-16 16-16h352c8.832031 0 16 7.167969 16 16s-7.167969 16-16 16zm0 0" />
         </svg>
-    </label>
+    </div>
     <input type="radio" id="painel" name="item" value="painel">
     <label for="painel">
         <svg height="20px" width="20px" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
