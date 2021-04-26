@@ -1,1 +1,22 @@
-/* You can add global styles to this file, and also import other style files */
+$primary: #013040;
+$gray: #707070;
+$ligth-gray: #70707028;
+
+@font-face {
+    font-family: Comfortaa;
+    src: url(../src/assets/fonts/Comfortaa-Regular.ttf) format("opentype");
+}
+
+body {
+    margin: 0;
+    font-family: "Comfortaa";
+}
+
+.w-100 {
+    width: 100% !important;
+}
+
+button{
+    background-color: transparent;
+    border: none;
+}
