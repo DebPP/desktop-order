@@ -86,6 +86,7 @@ label:hover {
 }
 
 .hide-sidebar {
+    transition: all .5s ease;
     width: 70px !important;
     p {
         display: none !important;
@@ -93,6 +94,7 @@ label:hover {
 }
 .show-sidebar{
     width: 200px !important;
+    transition: all .5s ease;
     p {
         display: block !important;
     }

@@ -10,9 +10,6 @@ export class SidebarComponent {
     open: boolean = true;
 
     handleChange(action: boolean) {
-        console.log(action);
         action ? this.classe = 'hide-sidebar' : this.classe = 'show-sidebar'
-
-
     }
 }
